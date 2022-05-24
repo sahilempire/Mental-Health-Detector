@@ -2,21 +2,27 @@ package com.example.mentalhealthdetector;
 
 public class QuestionAnswer {
 
-    Public static String question[] = {
-            "which company owns the android?",
-            "which one is not the Programming Language?",
-            "Where are you From"
+    public static String question[] ={
+            "Which company owns the android?",
+            "Which one is not the programming language?",
+            "Where you are watching this video?",
+            "Which company owns the Apple?"
     };
 
     public static String choices[][] = {
-            {"Google", "Apple", "Nokia", "Samsung"},
-            {"Java", "Kotlin", "Notepad", "Python"},
-            {"Agra", "Kota", "Guna", "Jaipu"}
+            {"Google","Apple","Nokia","Samsung"},
+            {"Java","Kotlin","Notepad","Python"},
+            {"Facebook","Whatsapp","Instagram","Youtube"},
+            {"Google","Apple","Nokia","Samsung"}
     };
 
-    public static String correctAnswer[] = {
+    public static String correctAnswers[] = {
             "Google",
             "Notepad",
-            "Agra"
+            "Youtube",
+            "Apple"
     };
+
 }
+
+
