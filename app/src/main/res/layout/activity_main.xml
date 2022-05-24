@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/teal_200"
+    android:padding="24dp"
     tools:context=".MainActivity">
 
 
@@ -26,6 +27,17 @@
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"
         android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/question"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:layout_above="@+id/choices_layout"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -74,5 +86,14 @@
             android:textSize="25dp" />
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_btn"
+        android:text="Submit"
+        android:layout_below="@+id/choices_layout"
+        android:layout_marginTop="40dp"/>
+
 
 </RelativeLayout>
